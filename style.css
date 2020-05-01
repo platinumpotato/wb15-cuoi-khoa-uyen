@@ -172,3 +172,8 @@ ul{
 .hr{
     border: solid black 1px; 
 }
+.featured-img{
+    width: 280px; 
+    height: 280px;
+    border: solid black 1px;
+}

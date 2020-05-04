@@ -176,7 +176,7 @@ ul{
 .featured-img{
     width: 100%; 
 }
-.featured-div{
+.featured-container{
     width: 25%;
     border: solid black 2px;
 }

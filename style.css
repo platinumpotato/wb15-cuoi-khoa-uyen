@@ -81,12 +81,12 @@ a{
 }
 button{
     background-color: #313131; 
-    width: 15%; 
     height: 3.75em; 
     border-radius: 6px; 
     position: absolute;
-    right: 225px;
-    margin: 50 0px;
+    right: 180px;
+    z-index: 1;
+    width: 220px;
 }
 .bottom-news-container{
     display: flex;
@@ -173,7 +173,26 @@ ul{
     border: solid black 1px; 
 }
 .featured-img{
-    width: 280px; 
-    height: 280px;
-    border: solid black 1px;
+    width: 100%; 
+}
+.featured-div{
+    width: 25%;
+    border: solid #232323 2px;
+}
+#top-white{
+    padding-bottom: 50px;
+}
+#bottom-white{
+    padding: 75px 11% 155px 11%;
+}
+.featured-pkm-info{
+    color: white;
+    background-color: #232323;
+}
+.featured-name{
+    display: flex; 
+    justify-content: space-between;
+}
+.featured-type{
+    display: flex;
 }

@@ -53,13 +53,10 @@ nav{
     font-family: 'Open Sans', sans-serif;
     color: #FFFFFF;
 }
-.news-container{
-    display: flex; 
-    justify-content: space-evenly;
-}
-.smaller-news{
-    width: 281px;
-    border-radius: 0 0 7px 7px;
+.bottom-news-text {
+    color: black;
+    font-size: 14.5px;
+    margin-top: 5px;
 }
 h3{
     margin: 0 5%;
@@ -78,39 +75,6 @@ a{
     color: #616161;
     text-decoration: none;    
     font-family: 'Open Sans', sans-serif;
-}
-button{
-    background-color: #313131; 
-    height: 3.75em; 
-    border-radius: 6px; 
-    position: absolute;
-    right: 185px;
-    z-index: 1;
-    width: 220px;
-    margin-top: 30px;
-}
-.bottom-news-container{
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 20px;
-    position: relative;
-}
-.bottom-news{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 281px;
-}
-.bottom-news-text{
-    color: black;
-    font-size: 14.5px;
-    margin-top: 5px;
-}
-.bottom-news-text-div{
-    height: 40%;
-    border-radius: 0 0 7px 7px;
-    color: #FFFFFF;
-    padding-bottom: 15px;
 }
 .rating-pic{
     position: absolute; 
@@ -180,12 +144,6 @@ ul{
     width: 25%;
     border: solid black 2px;
 }
-#top-white{
-    padding-bottom: 50px;
-}
-#bottom-white{
-    padding: 100px 11% 155px 11%;
-}
 .featured-pkm-info{
     color: white;
     background-color: #232323;
@@ -210,3 +168,23 @@ ul{
 .ab-text{
     margin-right: 40px;
 }
+#news1{
+    position: relative; 
+    background-color: #E6BC2F; 
+    height: 31%;
+}
+
+#news1-a{
+    width: 429px; 
+    background-color: #E6BC2F;
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+
+#news1-a :hover{
+    background-color: blue;
+}
+
+/* #news1 :hover{
+    background-color: blue;
+} */

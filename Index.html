@@ -8,6 +8,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Unofficial Pokemon Website</title>
+    <style>
+        #bottom-white {
+            padding: 100px 11% 155px 11%;
+        }
+
+        #top-white {
+            padding-bottom: 50px;
+        }
+
+        .featured-thing {
+            background-color: #232323;
+            width: 240px;
+            display: flex;
+            align-content: center;
+            margin: 0px;
+            padding: 10px;
+        }
+
+        .smaller-news {
+            width: 281px;
+            border-radius: 0 0 7px 7px;
+        }
+
+        button {
+            background-color: #313131;
+            height: 3.75em;
+            border-radius: 6px;
+            position: absolute;
+            right: 185px;
+            z-index: 1;
+            width: 220px;
+            margin-top: 30px;
+        }
+
+        .bottom-news-container {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+        }
+
+        .news-container {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .bottom-news {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 281px;
+        }
+    </style>
 </head>
 
 <body>
@@ -46,10 +98,10 @@
                     </div>
                 </a>
             </div>
-            <div class="news-container" style="margin-top: 98px; margin-bottom: 15%;">
-                <a href="news1.html" style="width: 429px; background-color: #E6BC2F;">
+            <div style="margin-top: 98px; margin-bottom: 15%;" class="news-container">
+                <a id="news1-a" href="news1.html" style="width: 429px; background-color: #E6BC2F;">
                     <img src="./news 1.PNG" alt="">
-                    <div style="position: relative; background-color: #E6BC2F; height: 31%;" class="news-text-div">
+                    <div id="news1" class="news-text-div">
                         <h3>Expand Your Galar Region Adventure</h3>
                         <p style="width: 89%">The <em>Pokemon Sword Expansion Pass</em> and the <em>Pokemon Shield
                                 Expansion Pass</em> brings new areas, new
@@ -59,7 +111,7 @@
                 </a>
                 <a href="news2.html" style="width: 429px; background-color: #41C9F9;">
                     <img src="./news 2.PNG" alt="">
-                    <div style="position: relative; background-color: #41C9F9; height: 31%;"
+                    <div id="news2" style="position: relative; background-color: #41C9F9; height: 31%;"
                         class="news-text-div news1">
                         <h3>Become a Pokemon on Nintendo Switch</h3>
                         <p style="width: 90%"><em>Pokemon Mystery Dungeon: Rescue Team DX</em> lets you partner
@@ -89,6 +141,10 @@
                     </div>
                 </a>
             </div>
+            <h3 class="featured-thing">
+                <img src="https://image.flaticon.com/icons/svg/528/528101.svg" alt=""
+                    style="width: 25px; height: 25px; margin: 0 15px 0 10px;">
+                Featured Pokemon</h3>
         </div>
         <div>
             <div style="display: flex;">
@@ -131,7 +187,7 @@
                     </div>
                 </div>
                 <div class="featured-container"><a href=""><img class="featured-img"
-                        src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/710.png" alt=""></a>
+                            src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/710.png" alt=""></a>
                     <div class="featured-pkm-info">
                         <div class="featured-name">
                             <h3>Pumpkaboo</h3>
@@ -150,7 +206,7 @@
                 </div>
                 <div class="featured-container" style="border-right-style: none;">
                     <a href=""><img class="featured-img"
-                        src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/249.png" alt=""></a>
+                            src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/249.png" alt=""></a>
                     <div class="featured-pkm-info">
                         <div class="featured-name">
                             <h3>Lugia</h3>
@@ -225,13 +281,13 @@
                         <div class="bottom-news-text-div">
                             <h3>Changes to the Pokémon TCG with <em>Sword & Shield</em></h3>
                             <p class="bottom-news-text">Card errata, rule changes, and more are coming with the
-                                introduction of the new Pokémon TCG: <em>Sword & Shield</em> Series.</p>
+                                introduction of the new Pokémon TCG Series.</p>
                         </div>
                     </a>
                     <a href="news11.html" style="background-color: #675945; border-radius: 0 0 7px 7px;">
                         <img src="./galarnews.PNG" alt="">
                         <div class="bottom-news-text-div">
-                            <h3>Prepare for the <em>Pokémon Sword</em> and <em>Pokémon Shield</em> Galar Newcomers
+                            <h3>The <em>Sword</em> and <em>Shield</em> Galar Newcomers
                                 Online Competition</h3>
                             <p class="bottom-news-text">Compete using Galar Pokémon, and earn Battle Points just for
                                 participating.</p>

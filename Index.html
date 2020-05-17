@@ -9,70 +9,68 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Unofficial Pokemon Website</title>
     <style>
-        #bottom-white {
-            padding: 100px 11% 155px 11%;
-        }
-
-        #top-white {
-            padding-bottom: 50px;
-        }
-
-        .featured-thing {
-            background-color: #232323;
-            width: 240px;
-            display: flex;
-            align-content: center;
-            margin: 0px;
-            padding: 10px;
-        }
-
-        .smaller-news {
-            width: 281px;
-            border-radius: 0 0 7px 7px;
-        }
-
-        button {
-            background-color: #313131;
-            height: 3.75em;
-            border-radius: 6px;
-            position: absolute;
-            right: 185px;
-            z-index: 1;
-            width: 220px;
-            margin-top: 30px;
-        }
-
-        .bottom-news-container {
-            display: flex;
-            justify-content: space-between;
+        #news1 {
             position: relative;
+            background-color: #E6BC2F;
+            height: 31%;
         }
 
-        .news-container {
-            display: flex;
-            justify-content: space-evenly;
+        #news1-a {
+            width: 429px;
+            background-color: #E6BC2F;
+            transition-property: background-color;
+            transition-duration: 2s;
         }
 
-        .bottom-news {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            width: 281px;
+        #news1-a :hover {
+            background-color: #F1C42D;
+        }
+
+        #news2-a {
+            width: 429px;
+            background-color: #41C9F9;
+        }
+
+        #news2 {
+            position: relative;
+            background-color: #41C9F9;
+            height: 31%;
+        }
+        #news2-a :hover{
+            background-color: #2DC3F1;
+        }
+        #news3{
+            background-color: #313131;
+        }
+        #news3 :hover{
+            background-color: #000000;
+        }
+        #news4{
+            background-color: #4DAD5B;
+        }
+        #news4 :hover{
+            background-color: #35A546;
+        }
+        #news5{
+            background-color: #EE6B2F;
+        }
+        #news5 :hover{
+            background-color: #DC5700;
         }
     </style>
 </head>
 
 <body>
     <div class="black-div">
-        <div class="white-div" id="top-white">
+        <div class="white-div">
             <nav>
                 <a href="#"><img src="./home.png" alt=""></a>
-                <a href="#"> <img src="./pokedex.PNG" alt=""></a>
-                <a href="#"> <img src="./vid games and apps.png" alt=""></a>
-                <a href="#"> <img src="./tcg.png" alt=""></a>
-                <a href="#"> <img src="./pokemon tv.PNG" alt=""></a>
-                <a href="#"> <img src="play events.png" alt=""></a>
-                <a href="#"> <img src="./news in nav.png" alt=""></a>
+                <a href="#"><img src="./pokedex.PNG" alt=""></a>
+                <a href="#"><img src="./vid games and apps.png" alt=""></a>
+                <a href="#"><img src="./tcg.png" alt=""></a>
+                <a href="#"><img src="./pokemon tv.PNG" alt=""></a>
+                <a href="#"><img src="play events.png" alt=""></a>
+                <a href="#"><img src="./news in nav.png" alt=""></a>
             </nav>
             <div class="left-tool-bar">
                 <a href="">
@@ -99,22 +97,21 @@
                 </a>
             </div>
             <div style="margin-top: 98px; margin-bottom: 15%;" class="news-container">
-                <a id="news1-a" href="news1.html" style="width: 429px; background-color: #E6BC2F;">
+                <a id="news1-a" href="news1.html">
                     <img src="./news 1.PNG" alt="">
                     <div id="news1" class="news-text-div">
                         <h3>Expand Your Galar Region Adventure</h3>
-                        <p style="width: 89%">The <em>Pokemon Sword Expansion Pass</em> and the <em>Pokemon Shield
+                        <p>The <em>Pokemon Sword Expansion Pass</em> and the <em>Pokemon Shield
                                 Expansion Pass</em> brings new areas, new
                             Pokemon, and other great features into your game.</p>
                         <img class="rating-pic" src="rating 1.PNG" alt="">
                     </div>
                 </a>
-                <a href="news2.html" style="width: 429px; background-color: #41C9F9;">
+                <a id="news2-a" href="news2.html">
                     <img src="./news 2.PNG" alt="">
-                    <div id="news2" style="position: relative; background-color: #41C9F9; height: 31%;"
-                        class="news-text-div news1">
+                    <div id="news2" class="news-text-div">
                         <h3>Become a Pokemon on Nintendo Switch</h3>
-                        <p style="width: 90%"><em>Pokemon Mystery Dungeon: Rescue Team DX</em> lets you partner
+                        <p><em>Pokemon Mystery Dungeon: Rescue Team DX</em> lets you partner
                             with fellow Pokemon and explore
                             ever-changing dungeons.</p>
                         <img class="rating-pic" src="rating 2.PNG" alt="">
@@ -122,19 +119,19 @@
                 </a>
             </div>
             <div style="margin-top: 20px; margin-bottom: 5%;" class="news-container">
-                <a href="news3.html" style="background-color: #313131;" class="smaller-news">
+                <a id="news3" href="news3.html" class="smaller-news">
                     <img src="news 3.PNG" alt="">
-                    <div style="background-color: #313131;" class="news-text-div">
+                    <div class="news-text-div">
                         <h3>Expand Your Galar Region Adventure</h3>
                     </div>
                 </a>
-                <a href="news4.html" style="background-color: #4DAD5B;" class="smaller-news">
+                <a id="news4" href="news4.html" class="smaller-news">
                     <img src="news4.PNG" alt="">
                     <div class="news-text-div">
                         <h3>Cosmic TAG TEAM Supporters to Eclipse the Competition</h3>
                     </div>
                 </a>
-                <a href="news5.html" style="background-color: #EE6B2F;" class="smaller-news">
+                <a id="news5" href="news5.html" class="smaller-news">
                     <img src="news 5.PNG" alt="">
                     <div class="news-text-div">
                         <h3>Pokemon from Galar Line Up for Pokemon TGC Action</h3>
@@ -214,7 +211,7 @@
                         </div>
                         <div class="featured-type">
                             <p class="type-text">Type</p>
-                            <p class="type-text2">Flying</p>
+                            <p class="type-text2" style="background-color: #48CAEC;">Flying</p>
                             <p class="type-text2" style="background-color: #F366B9;">Psychic</p>
                         </div>
                         <div class="featured-type">
@@ -233,7 +230,7 @@
                 <div class="bottom-news">
                     <a href="news6.html" style="background-color: #E6BC2F; border-radius: 0 0 7px 7px;">
                         <img src="./pikachunews.PNG" alt="">
-                        <div class="bottom-news-text-div">
+                        <div>
                             <h3>Watch the Pokemon Regional Championships</h3>
                             <p class="bottom-news-text">Go on Pokemon TV right now to keep track of the constant action
                                 of
@@ -241,9 +238,9 @@
                                 Championships!</p>
                         </div>
                     </a>
-                    <a href="news7.html" style="background-color: #551A8B; border-radius: 0 0 7px 7px;">
+                    <a href="news7.html" style="background-color: #855AC9; border-radius: 0 0 7px 7px;">
                         <img src="./piplupnews.PNG" alt="">
-                        <div class="bottom-news-text-div">
+                        <div>
                             <h3>Watch Piplup in Pokémon the Series on Pokémon TV</h3>
                             <p class="bottom-news-text">Check out the new episode entirely devoted to the little blue
                                 pengiun!
@@ -254,7 +251,7 @@
                 <div class="bottom-news">
                     <a href="news8.html" style="background-color: #E3350D; border-radius: 0 0 7px 7px;">
                         <img src="./trainhatchnews.PNG" alt="">
-                        <div class="bottom-news-text-div">
+                        <div>
                             <h3>Train and Hatch your Pokemon in Galar</h3>
                             <p class="bottom-news-text">The Galar region has Pokemon Daycares that allows you to train
                                 and
@@ -266,7 +263,7 @@
                     </div>
                     <a href="news9.html" style="background-color: #4DAD5B; border-radius: 0 0 7px 7px;">
                         <img src="./wildareanews.PNG" alt="">
-                        <div class="bottom-news-text-div">
+                        <div>
                             <h3>Battle a Special Milcery in Max Raid Battles</h3>
                             <p class="bottom-news-text">This Pokemon will be able to Giantamax after it evolves, and it
                                 may
@@ -278,7 +275,7 @@
                 <div class="bottom-news">
                     <a href="news10.html" style="background-color: #EE6B2F; border-radius: 0 0 7px 7px;">
                         <img src="./meothcardnews.PNG" alt="">
-                        <div class="bottom-news-text-div">
+                        <div>
                             <h3>Changes to the Pokémon TCG with <em>Sword & Shield</em></h3>
                             <p class="bottom-news-text">Card errata, rule changes, and more are coming with the
                                 introduction of the new Pokémon TCG Series.</p>
@@ -286,7 +283,7 @@
                     </a>
                     <a href="news11.html" style="background-color: #675945; border-radius: 0 0 7px 7px;">
                         <img src="./galarnews.PNG" alt="">
-                        <div class="bottom-news-text-div">
+                        <div>
                             <h3>The <em>Sword</em> and <em>Shield</em> Galar Newcomers
                                 Online Competition</h3>
                             <p class="bottom-news-text">Compete using Galar Pokémon, and earn Battle Points just for

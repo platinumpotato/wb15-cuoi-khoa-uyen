@@ -213,3 +213,128 @@ button {
     justify-content: space-evenly;
     width: 281px;
 }
+.news1 {
+    position: relative;
+    background-color: #E6BC2F;
+    height: 31%;
+}
+
+.news1-a {
+    width: 429px;
+    background-color: #E6BC2F;
+}
+
+.news1:hover {
+    background-color: #F1C42D;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.news2-a {
+    width: 429px;
+    background-color: #41C9F9;
+}
+
+.news2 {
+    position: relative;
+    background-color: #41C9F9;
+    height: 31%;
+}
+
+.news2-a:hover {
+    background-color: #0BC6EC;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.news3 {
+    background-color: #313131;
+}
+
+.news3:hover {
+    background-color: #000000;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.news4 {
+    background-color: #4DAD5B;
+}
+
+.news4:hover {
+    background-color: #35A546;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.news5 {
+    background-color: #EE6B2F;
+}
+
+.news5:hover {
+    background-color: #DC5700;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.news6 {
+    background-color: #E6BC2F;
+}
+
+.news6:hover {
+    background-color: #F1C42D;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.news7 {
+    background-color: #855AC9;
+}
+
+.news7:hover {
+    background-color: #9E59EF;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.news8 {
+    background-color: #E3350D;
+}
+
+.news8:hover {
+    background-color: #CE2222;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.news10 {
+    background-color: #EE6B2F;
+}
+
+.news10:hover {
+    background-color: #DC5700;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.news11 {
+    background-color: #675945;
+}
+
+.news11:hover {
+    background-color: #6A451A;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+.mb-50px{
+    margin-bottom: 50px;
+}
+.pokedex-title{
+    margin-top: 120px;
+    color: black; 
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.pokedex-number{ 
+    color: #616161;
+}

@@ -52,7 +52,6 @@ nav{
     justify-content: space-around;
 }
 .text{
-    font-family: 'Open Sans', sans-serif;
     color: #FFFFFF;
 }
 .bottom-news-text {
@@ -64,11 +63,9 @@ nav{
 h3{
     margin: 0 5%;
     color: white;
-    font-family: 'Open Sans', sans-serif;
 }
 p{
     margin: 0 5%;
-    font-family: 'Open Sans', sans-serif;
 }
 .news-text-div{
     border-radius: 0 0 7px 7px;
@@ -76,8 +73,7 @@ p{
 }
 a{
     color: #616161;
-    text-decoration: none;    
-    font-family: 'Open Sans', sans-serif;
+    text-decoration: none; 
 }
 .rating-pic{
     position: absolute; 
@@ -102,7 +98,6 @@ h6{
 .news-content{
     color: #919191;
     margin-bottom: 11px;
-    font-family: 'Open Sans', sans-serif;
 }
 .news-in-news{
     border-radius: 0 0 7px 7px;
@@ -333,8 +328,10 @@ button {
     margin-top: 120px;
     color: black; 
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
 }
 .pokedex-number{ 
     color: #616161;
+}
+div{
+    font-family: 'Open Sans', sans-serif;
 }

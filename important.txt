@@ -1,0 +1,1 @@
+không động đến margin của h5 h6 trong pokedex và của .desc-column-2

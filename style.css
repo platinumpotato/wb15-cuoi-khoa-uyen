@@ -372,4 +372,19 @@ div{
 }
 .pkdx-desc{
     width: 95%;
+    font-size: large;
+}
+.pkdx-blue-desc{
+    background-color: #30A7D7; 
+    display: flex; 
+    justify-content: space-between; 
+    border-radius: 8px; 
+    margin-top: 10%;
+}
+.desc-column-1{
+    margin-left: 5%; 
+    padding: 2% 0;
+}
+.desc-column-2{
+    margin: 2% 12% 2% 0;
 }

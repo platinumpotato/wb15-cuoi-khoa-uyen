@@ -379,12 +379,23 @@ div{
     display: flex; 
     justify-content: space-between; 
     border-radius: 8px; 
-    margin-top: 10%;
+    margin: 10% 0;
+    height: 30%;
 }
 .desc-column-1{
     margin-left: 5%; 
     padding: 2% 0;
+    height: 100%;
 }
 .desc-column-2{
-    margin: 2% 12% 2% 0;
+    margin: 2% 15% 2% 0;
+    height: 100%;
+}
+.pkdx-types{
+    font-size: large; 
+    width: 30%; 
+    text-align: center; 
+    border-radius: 6px; 
+    padding: 0.5%; 
+    margin-right: 2%;
 }

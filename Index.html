@@ -8,6 +8,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Unofficial Pokemon Website</title>
+    <style>
+        #news-container-1 {
+            margin: 11% 0 15% 0;
+        }
+
+        #news-container-2 {
+            margin: 17% 0 5% 0;
+        }
+
+        #pokeball {
+            width: 11%;
+            height: 11%;
+            margin: 0 6% 0 3%;
+        }
+    </style>
 </head>
 
 <body>
@@ -26,7 +41,7 @@
                 <a href="">
                     <div class="log-in-hover">
                         <div class="log-in">
-                            <img src="./human icon.PNG" alt="">
+                            <img class="unset" src="./human icon.PNG" alt="">
                             <h6>Log In</h6>
                         </div>
                     </div>
@@ -41,12 +56,12 @@
                 <a href="">
                     <div class="search-hover">
                         <div class="search">
-                            <img src="./search icon.PNG" alt="">
+                            <img class="unset" src="./search icon.PNG" alt="">
                         </div>
                     </div>
                 </a>
             </div>
-            <div style="margin: 98px 0 15% 0;" class="news-container">
+            <div id="news-container-1" class="news-container">
                 <a class="news1-a" href="news1.html">
                     <img src="./news 1.PNG" alt="">
                     <div class="news-text-div news1">
@@ -68,7 +83,7 @@
                     </div>
                 </a>
             </div>
-            <div style="margin: 20px 0 5% 0;" class="news-container">
+            <div id="news-container-2" class="news-container">
                 <a class="smaller-news news3" href="news3.html">
                     <img src="news 3.PNG" alt="">
                     <div class="news-text-div">
@@ -89,15 +104,15 @@
                 </a>
             </div>
             <h3 class="featured-thing">
-                <img src="https://image.flaticon.com/icons/svg/528/528101.svg" alt=""
-                    style="width: 25px; height: 25px; margin: 0 15px 0 10px;">
+                <img src="https://image.flaticon.com/icons/svg/528/528101.svg" id="pokeball" alt="">
                 Featured Pokemon</h3>
         </div>
         <div>
             <div style="display: flex;">
                 <div class="featured-container" style="border-left-style: none;">
                     <a href="pkdx-ribombee.html"><img class="featured-img"
-                            src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/743.png" alt=""></a>
+                            src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/743.png" alt="">
+                    </a>
                     <div class="featured-pkm-info">
                         <div class="featured-name">
                             <h3>Ribombee</h3>
@@ -116,7 +131,8 @@
                 </div>
                 <div class="featured-container">
                     <a href="pkdx-bulbasaur.html"><img class="featured-img"
-                            src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" alt=""></a>
+                            src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" alt="">
+                    </a>
                     <div class="featured-pkm-info">
                         <div class="featured-name">
                             <h3>Bulbasaur</h3>
@@ -175,12 +191,12 @@
             </div>
         </div>
         <button>
-            <p class="text" style="font-size:medium ;">Explore More Pokemon</p>
+            <p class="text" style="font-size:medium; font-family: 'Open Sans', sans-serif;">Explore More Pokemon</p>
         </button>
         <div class="white-div" id="bottom-white">
             <div class="bottom-news-container">
                 <div class="bottom-news">
-                    <a class="smaller-news news6" href="news6.html">
+                    <a class="smaller-bottom-news news6" href="news6.html">
                         <img src="./pikachunews.PNG" alt="">
                         <div>
                             <h3>Watch the Pokemon Regional Championships</h3>
@@ -190,7 +206,7 @@
                                 Championships!</p>
                         </div>
                     </a>
-                    <a class="smaller-news news7" href="news7.html">
+                    <a class="smaller-bottom-news news7" href="news7.html">
                         <img src="./piplupnews.PNG" alt="">
                         <div>
                             <h3>Watch Piplup in Pokémon the Series on Pokémon TV</h3>
@@ -201,7 +217,7 @@
                     </a>
                 </div>
                 <div class="bottom-news">
-                    <a class="smaller-news news8" href="news8.html">
+                    <a class="smaller-bottom-news news8" href="news8.html">
                         <img src="./trainhatchnews.PNG" alt="">
                         <div>
                             <h3>Train and Hatch your Pokemon in Galar</h3>
@@ -213,7 +229,7 @@
                     <div class="text" style="color: #919191;">
                         <h2 style="text-align: center;">What's new this week</h2>
                     </div>
-                    <a class="smaller-news news4" href="news9.html">
+                    <a class="smaller-bottom-news news4" href="news9.html">
                         <img src="./wildareanews.PNG" alt="">
                         <div>
                             <h3>Battle a Special Milcery in Max Raid Battles</h3>
@@ -225,7 +241,7 @@
                     </a>
                 </div>
                 <div class="bottom-news">
-                    <a class="smaller-news news10" href="news10.html">
+                    <a class="smaller-bottom-news news10" href="news10.html">
                         <img src="./meothcardnews.PNG" alt="">
                         <div>
                             <h3>Changes to the Pokémon TCG with <em>Sword & Shield</em></h3>
@@ -233,7 +249,7 @@
                                 introduction of the new Pokémon TCG Series.</p>
                         </div>
                     </a>
-                    <a class="smaller-news news11" href="news11.html">
+                    <a class="smaller-bottom-news news11" href="news11.html">
                         <img src="./galarnews.PNG" alt="">
                         <div>
                             <h3>The <em>Sword</em> and <em>Shield</em> Galar Newcomers
@@ -244,7 +260,7 @@
                     </a>
                 </div>
             </div>
-            <a href="" class="smaller-news news-text-div" style="position: absolute; right: 11%;">
+            <a href="" class="smaller-bottom-news news-text-div" style="position: absolute; right: 11%;">
                 <h3
                     style="background-color: #EE6B2F; padding: 14px; width: 250px; margin: 0px; border-radius: 7px 7px 0 0;">
                     View All News</h3>
@@ -272,10 +288,10 @@
             <hr class="hr">
             <div class="footer2">
                 <h5 class="text connect-with-us">Connect With Us</h5>
-                <a href="https://www.facebook.com/Pokemon/"><img src="fb icon.PNG" alt=""></a>
-                <a href="https://www.youtube.com/user/pokemon"><img src="yt icon.PNG" alt=""></a>
-                <a href="https://twitter.com/pokemon"><img src="twt icon.PNG" alt=""></a>
-                <a href="https://www.instagram.com/pokemon/"><img src="ins icon.PNG" alt=""></a>
+                <a href="https://www.facebook.com/Pokemon/"><img class="unset" src="fb icon.PNG" alt=""></a>
+                <a href="https://www.youtube.com/user/pokemon"><img class="unset" src="yt icon.PNG" alt=""></a>
+                <a href="https://twitter.com/pokemon"><img class="unset" src="twt icon.PNG" alt=""></a>
+                <a href="https://www.instagram.com/pokemon/"><img class="unset" src="ins icon.PNG" alt=""></a>
             </div>
             <hr class="hr">
             <div class="footer3">

@@ -1,3 +1,7 @@
+html, body {
+    margin: 0px;
+}
+
 .black-div{
     padding: 0 4% 4% 4%;
     background-color: #464646;
@@ -9,7 +13,7 @@
 }
 .left-tool-bar{
     position: fixed; 
-    left: 4.5%; 
+    left: 4%; 
     border: 3px solid black; 
     border-left-style: none;
     text-align: center;
@@ -45,7 +49,17 @@ nav{
     position: fixed;
     top: 0px;
     z-index: 2;
+    width: 100%;
+    justify-content: center;
     display: flex;
+}
+
+nav > a {
+    width: 10%;
+}
+
+nav > a > img {
+    width: 100%;
 }
 .footer-container{
     background-color: #1F1F1F;
@@ -93,9 +107,19 @@ h6{
     margin: 0px;
     color: #FFFFFF;
 }
+.big-news-container{
+    display: flex; 
+    padding-bottom: 70px;
+}
+.news-content-container{
+    width: 70%;
+}
 .news-doc-top{
     background-color: grey;
     margin-top: 98px;
+}
+.news-top-img{
+    margin-left: 150px; width: 50%;
 }
 .news-title{
     color: black;
@@ -127,10 +151,15 @@ h6{
 .next-to-news{
     margin-top: 40px; 
     margin-left: 20px;
+    width: 30%;
 }
 .news-img{
     float: right;
     margin-left: 8px;
+}
+.news-mid-img{
+    margin: 0 5%; 
+    width: 90%;
 }
 hr{
     margin-left: 5%;

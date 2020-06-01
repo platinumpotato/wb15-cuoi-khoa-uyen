@@ -466,3 +466,17 @@ div{
     text-decoration: underline;
     margin: 0px;
 }
+.view-all{
+    width: 100%; 
+    margin: 0px; 
+    padding: 5%; 
+}
+#orange{
+    background-color: #EE6B2F; 
+    border-radius: 7px 7px 0 0;
+}
+#blue{
+    background-color: #30A7D7; 
+    color: black; 
+    border-radius: 0 0 7px 7px;
+}

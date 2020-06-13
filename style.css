@@ -481,3 +481,9 @@ div{
     color: black; 
     border-radius: 0 0 7px 7px;
 }
+.news-img-left {
+    float: left;
+    margin-right: 8px;
+    margin-left: 5%;
+    width: unset;
+}
